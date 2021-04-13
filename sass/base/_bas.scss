@@ -1,0 +1,31 @@
+
+*,
+*::before,
+*::after {
+    margin: 0; padding: 0;
+}
+img {
+    display: block;
+}
+    
+body {
+    font-family: var(--main-font);
+}
+li {
+    list-style-type: none;
+}
+ul{
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: #212121;
+}
+a:hover,
+a:focus{
+    outline: none;
+}
+button:hover,
+button:focus{
+    outline: none;
+}
