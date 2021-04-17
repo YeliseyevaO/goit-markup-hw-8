@@ -1,4 +1,16 @@
-/*.our-job{
+@media screen and (min-width:480px){
+    .our-job{
+        display: none;
+    }
+}
+@media screen and (min-width:768px){
+    .our-job{
+        display: none;
+    }
+}
+@media screen and (min-width:1200px){
+.our-job{
+    display: block;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -34,4 +46,5 @@
     }
     .list-our-job-item{
         position: relative;
-    }*/
+    }
+}

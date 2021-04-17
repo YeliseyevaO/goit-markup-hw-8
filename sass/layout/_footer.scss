@@ -16,6 +16,9 @@
  text-align: center;
  margin-top: 20px;
 }
+.left-side{
+    margin-bottom: 60px;
+}
 .contacts-item >a{
     color: rgba(255, 255, 255, 0.6); 
     text-align: center;
@@ -29,7 +32,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 60px;
     margin-bottom:20px;
     text-align: center;
    }
@@ -65,7 +67,6 @@
 }
 .form{
     margin-top: 60px;
-    margin-bottom: 60px;
 }
 .form p{
     font-weight:700;
@@ -95,42 +96,33 @@
         color: rgba(255, 255, 255, 0.6);
         padding: 16px;
 }
-.form-field{
-    position: relative;
-}
 
 .icon-aeroplane{
     display: block;
-    position: absolute;
-    right: 145px;
-    bottom: 13px;
+  margin-left: 10px;
 
 }
-
-
-
-
-/*.footer{
-    background-color:#2f303a;
-    padding-top: 60px;
-    padding-bottom: 60px;
+@media  screen and (min-width:768px){
+    .footer_tablet{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .distribution-mail{
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
-
+@media  screen and (min-width:1200px){
 .left-side{
     margin-right: 70px;
+    margin-bottom: 0px;
 }
 .title-social{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
     margin-top: 12px;
     margin-bottom:20px;
 }
-
-
 .contacts{
     margin-top: 9px;
 }
@@ -176,37 +168,16 @@
 .social-list-icon.dark{
     fill: #fff;
 }
-
-
 .form{
     margin-top: 12px;
     margin-bottom: 34px;
 }
 .form-field{
     display: flex;
-    position: relative;
 }
 .distribution-mail{
-    display: block;
     width: 358px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    background-color: #2F303A;
     margin-right: 12px;
-
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        padding: 16px;
 }
-.icon-aeroplane{
-    display: block;
-    position: absolute;
-    right: 18px;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
+
+}

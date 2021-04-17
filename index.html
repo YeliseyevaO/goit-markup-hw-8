@@ -67,10 +67,16 @@
                 <use href=./images/sprite.svg#icon-close></use>
             </svg>  
         </button>
+        <ul class="mobile-menu_social">
+<li class="mobile-menu_social-item"><a  class="mobile-menu_social-link" href=" ">Instagram</a></li>
+<li class="mobile-menu_social-item"><a class="mobile-menu_social-link" href=" ">Twitter</a></li>
+<li class="mobile-menu_social-item"><a class="mobile-menu_social-link" href=" ">Facebook</a></li>
+<li class="mobile-menu_social-item"><a class="mobile-menu_social-link" href=" ">LinkedIn</a></li>
+        </ul>
         </div>
 
     </header>
-<!--<main>-->
+<main>
     <!--Hero-->
     <section class="hero">
         <div class="container">
@@ -88,81 +94,96 @@
         <ul class="about-list">
 
            
-            <li class="about-list-item">
+            <li class="about-list_item">
                 <div class="poster">
                 <svg class="poster-icon" width="70" height="70">
                     <use href=./images/sprite.svg#icon-antenna></use>
                 </svg></div>   
-            <h3 class="title-about-list">Внимание к деталям</h3>
-                <p class="about-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <h3 class="about-list_title">Внимание к деталям</h3>
+                <p class="about-list_text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>    
-            <li class="about-list-item">
+            <li class="about-list_item">
                 <div class="poster">
                 <svg class="poster-icon" width="70" height="70">
                     <use href=./images/sprite.svg#icon-clock></use>
                 </svg></div>
-                <h3 class="title-about-list">Пунктуальность</h3>
-                <p class="about-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <h3 class="about-list_title">Пунктуальность</h3>
+                <p class="about-list_text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         
             </li>
-            <li class="about-list-item">
+            <li class="about-list_item">
                 <div class="poster">
                 <svg class="poster-icon" width="70" height="70">
                     <use href=./images/sprite.svg#icon-diagram></use>
                 </svg></div>
-                <h3 class="title-about-list">Планирование</h3>
-            <p class="about-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <h3 class="about-list_title">Планирование</h3>
+            <p class="about-list_text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-            <li class="about-list-item">
+            <li class="about-list_item">
                 <div class="poster">
                 <svg class="poster-icon" width="70" height="70">
                     <use href=./images/sprite.svg#icon-astronaut></use>
                 </svg></div>
-                <h3 class="title-about-list">Современные технологии</h3>
-            <p class="about-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <h3 class="about-list_title">Современные технологии</h3>
+            <p class="about-list_text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
         </ul>
     </div>
     </section>
 
-<!--Our job--><!--
+<!--Our job-->
 <section class="our-job">
     <div class="container">
 <h2 class="title">Чем мы занимаемся</h2>
 <ul class="list-our-job">
     <li class="list-our-job-item">
-        <img src="./images/img1.jpg" alt="работа над алгоритмом" width="370" height="294"/>
+
+        <picture>
+            <source srcset="./images/img-desktop1.webp 1x, ./images/img-desktop1@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+            <source srcset="./images/img-desktop1.jpg 1x, ./images/img-desktop1@2x.jpg 2x" media="(min-width:1200px)">
+        <img src="./images/img-desktop1.jpg" alt="работа над алгоритмом"/>
+    </picture>
         <div class="description"><p class="description-text">  Десктопные приложения
         </p></div> 
     </li>
     <li class="list-our-job-item">
-        <img src="./images/img2.jpg" alt="разработка мобильного приложения" width="370" height="294"/>
+
+        <picture>
+            <source srcset="./images/img-desktop2.webp 1x, ./images/img-desktop2@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+            <source srcset="./images/img-desktop2.jpg 1x, ./images/img-desktop2@2x.jpg 2x" media="(min-width:1200px)">
+        <img src="./images/img-desktop2.jpg" alt="разработка мобильного приложения"/>
+    </picture>
         <div class="description"><p class="description-text">Мобильные приложения
         </p></div> 
     </li>
     <li class="list-our-job-item">
-        <img src="./images/img3.jpg" alt="работа над цветом" width="370" height="294"/>
+
+        <picture>
+            <source srcset="./images/img-desktop3.webp 1x, ./images/img-desktop3@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+            <source srcset="./images/img-desktop3.jpg 1x, ./images/img-desktop3@2x.jpg 2x" media="(min-width:1200px)">
+        <img src="./images/img-desktop3.jpg" alt="работа над цветом"/>
+        </picture>
         <div class="description"><p class="description-text">Дизайнерские решения
         </p></div> 
     </li>
 </ul>
 </div> 
-</section> -->
+</section> 
 <!--employees-->
 <section class="employee">
     <div class="container">
     <h2 class="title">Наша команда</h2>
     <ul class="employee-list">
-        <li class="employee-list-item">
+        <li class="employee-list_item">
             <picture>
-                <source srcset="./images/img-desktop4.webp 1x, ./images/img-desktop-4@2x.webp 2x" media="(min-width:1200px)">
-                    <source srcset="./images/img-tablet4.webp 1x, ./images/img-tablet-4@2x.webp 2x" media="(min-width:768px)">
-                    <source srcset="./images/img-mobile4.webp 1x, ./images/img-mobile4@2x.webp 2x" media="(min-width:320px)">
-                <source srcset="./images/img-desktop4.jpg 1x, ./images/img-desktop-4@2x.jpg 2x" media="(min-width:1200px)">
-                <source srcset="./images/img-tablet4.jpg 1x, ./images/img-tablet-4@2x.jpg 2x" media="(min-width:768px)">
+                <source srcset="./images/img-desktop4.webp 1x, ./images/img-desktop4@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+                    <source srcset="./images/img-tablet4.webp 1x, ./images/img-tablet4@2x.webp 2x" media="(min-width:768px)" type="image/webp">
+                    <source srcset="./images/img-mobile4.webp 1x, ./images/img-mobile4@2x.webp 2x" media="(min-width:320px)" type="image/webp">
+                <source srcset="./images/img-desktop4.jpg 1x, ./images/img-desktop4@2x.jpg 2x" media="(min-width:1200px)">
+                <source srcset="./images/img-tablet4.jpg 1x, ./images/img-tablet4@2x.jpg 2x" media="(min-width:768px)">
                 <source srcset="./images/img-mobile4.jpg 1x, ./images/img-mobile4@2x.jpg 2x" media="(min-width:320px)">
             <img class="employee-list-img"
-            src="./images/img-mobil4.jpg" alt="мужчина" />
+            src="./images/img-tablet4.jpg" alt="мужчина" />
         </picture>
             <h3 class="employee-list-name">Игорь Демьяненко</h3>
             <p class="employee-list-prof" lang="en">Product Designer</p>
@@ -195,15 +216,15 @@
                 </li>
             </ul>
         </li>
-        <li class="employee-list-item">
+        <li class="employee-list_item">
         <picture>
-            <source srcset="./images/img-desktop5.webp 1x, ./images/img-desktop-5@2x.webp 2x" media="(min-width:1200px)">
-                <source srcset="./images/img-tablet5.webp 1x, ./images/img-tablet-5@2x.webp 2x" media="(min-width:768px)">
-                <source srcset="./images/img-mobile5.webp 1x, ./images/img-mobile5@2x.webp 2x" media="(min-width:320px)">
-            <source srcset="./images/img-desktop5.jpg 1x, ./images/img-desktop-5@2x.jpg 2x" media="(min-width:1200px)">
-                <source srcset="./images/img-tablet5.jpg 1x, ./images/img-tablet-5@2x.jpg 2x" media="(min-width:768px)">
+            <source srcset="./images/img-desktop5.webp 1x, ./images/img-desktop5@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+                <source srcset="./images/img-tablet5.webp 1x, ./images/img-tablet5@2x.webp 2x" media="(min-width:768px)" type="image/webp">
+                <source srcset="./images/img-mobile5.webp 1x, ./images/img-mobile5@2x.webp 2x" media="(min-width:320px)" type="image/webp">
+            <source srcset="./images/img-desktop5.jpg 1x, ./images/img-desktop5@2x.jpg 2x" media="(min-width:1200px)">
+                <source srcset="./images/img-tablet5.jpg 1x, ./images/img-tablet5@2x.jpg 2x" media="(min-width:768px)">
                 <source srcset="./images/img-mobile5.jpg 1x, ./images/img-mobile5@2x.jpg 2x" media="(min-width:320px)">
-            <img class="employee-list-img" src="./images/img-mobil5.jpg" alt="женщина"/>
+            <img class="employee-list-img" src="./images/img-tablet5.jpg" alt="женщина"/>
         </picture>
             <h3 class="employee-list-name">Ольга Репина</h3>
             <p class="employee-list-prof" lang="en">Frontend Developer </p>
@@ -234,15 +255,15 @@
                 </li>
             </ul>
         </li>
-        <li class="employee-list-item">
+        <li class="employee-list_item">
              <picture>
-                <source srcset="./images/img-desktop6.webp 1x, ./images/img-desktop-6@2x.webp 2x" media="(min-width:1200px)">
-                    <source srcset="./images/img-tablet6.webp 1x, ./images/img-tablet-6@2x.webp 2x" media="(min-width:768px)">
-                    <source srcset="./images/img-mobile6.webp 1x, ./images/img-mobile6@2x.webp 2x" media="(min-width:320px)"> 
-                <source srcset="./images/img-desktop6.jpg 1x, ./images/img-desktop-6@2x.jpg 2x" media="(min-width:1200px)">
-                    <source srcset="./images/img-tablet6.jpg 1x, ./images/img-tablet-6@2x.jpg 2x" media="(min-width:768px)">
+                <source srcset="./images/img-desktop6.webp 1x, ./images/img-desktop6@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+                    <source srcset="./images/img-tablet6.webp 1x, ./images/img-tablet6@2x.webp 2x" media="(min-width:768px)" type="image/webp">
+                    <source srcset="./images/img-mobile6.webp 1x, ./images/img-mobile6@2x.webp 2x" media="(min-width:320px)" type="image/webp"> 
+                <source srcset="./images/img-desktop6.jpg 1x, ./images/img-desktop6@2x.jpg 2x" media="(min-width:1200px)">
+                    <source srcset="./images/img-tablet6.jpg 1x, ./images/img-tablet6@2x.jpg 2x" media="(min-width:768px)">
                     <source srcset="./images/img-mobile6.jpg 1x, ./images/img-mobile6@2x.jpg 2x" media="(min-width:320px)">
-            <img class="employee-list-img" src="./images/img-mobil6.jpg" alt="мужчина"/>
+            <img class="employee-list-img" src="./images/img-tablet6.jpg" alt="мужчина"/>
         </picture>
             <h3 class="employee-list-name">Николай Тарасов</h3>
             <p class="employee-list-prof" lang="en">Marketing</p>
@@ -273,15 +294,15 @@
                 </li>
             </ul>
         </li>
-        <li class="employee-list-item">
+        <li class="employee-list_item">
             <picture>
-                <source srcset="./images/img-desktop7.webp 1x, ./images/img-desktop-7@2x.webp 2x" media="(min-width:1200px)">
-                    <source srcset="./images/img-tablet7.webp 1x, ./images/img-tablet-7@2x.webp 2x" media="(min-width:768px)">
-                    <source srcset="./images/img-mobile7.webp 1x, ./images/img-mobile7@2x.webp 2x" media="(min-width:320px)">
-                <source srcset="./images/img-desktop7.jpg 1x, ./images/img-desktop-7@2x.jpg 2x" media="(min-width:1200px)">
-                    <source srcset="./images/img-tablet7.jpg 1x, ./images/img-tablet-7@2x.jpg 2x" media="(min-width:768px)">
+                <source srcset="./images/img-desktop7.webp 1x, ./images/img-desktop7@2x.webp 2x" media="(min-width:1200px)" type="image/webp">
+                    <source srcset="./images/img-tablet7.webp 1x, ./images/img-tablet7@2x.webp 2x" media="(min-width:768px)" type="image/webp">
+                    <source srcset="./images/img-mobile7.webp 1x, ./images/img-mobile7@2x.webp 2x" media="(min-width:320px)" type="image/webp">
+                <source srcset="./images/img-desktop7.jpg 1x, ./images/img-desktop7@2x.jpg 2x" media="(min-width:1200px)">
+                    <source srcset="./images/img-tablet7.jpg 1x, ./images/img-tablet7@2x.jpg 2x" media="(min-width:768px)">
                     <source srcset="./images/img-mobile7.jpg 1x, ./images/img-mobile7@2x.jpg 2x" media="(min-width:320px)"> 
-            <img class="employee-list-img" src="./images/img-mobil7.jpg" alt="мужчина"/>
+            <img class="employee-list-img" src="./images/img-tablet7.jpg" alt="мужчина"/>
         </picture>
             <h3 class="employee-list-name">Михаил Ермаков</h3>
             <p class="employee-list-prof" lang="en">UI Designer</p>
@@ -356,6 +377,7 @@
 </main>
 <footer class="footer">
     <div class="container">
+        <div class="footer_tablet">
         <div class="left-side">
     <a href="./index.html"><p class="logo">
         Web<span class="accent-dark">Studio</span>
@@ -402,16 +424,18 @@
         </li>
     </ul>  
 </div>
+</div>
     <div class="form">
         <p>Подпишитесь на рассылку</p>
         <form action="#" class="distribution">
             <div class="form-field">
             <input type="mail" class="distribution-mail" id="dst-mail" placeholder="E-mail">
             <div class="button-container">
-            <button type="submit" class="mdlbutton ">Подписаться</button></div>
-            <svg class="icon-aeroplane" width="24" height="24">
+            <button type="submit" class="mdlbutton ">Подписаться<svg class="icon-aeroplane" width="24" height="24">
                 <use href=./images/sprite.svg#icon-aeroplane></use>
-            </svg>
+            </svg></button>
+        </div>
+            
         </div>
         </form>
 
