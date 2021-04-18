@@ -159,12 +159,6 @@ button:focus {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 768px) {
-  .header .logo {
-    margin-right: 88px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .header .logo {
     margin-right: 93px;
@@ -347,9 +341,6 @@ button:focus {
   .contacts-list_item:not(:last-child) {
     margin-bottom: 10px;
   }
-  .contacts-list {
-    margin-left: auto;
-  }
   .contacts-list_link {
     display: flex;
     align-items: center;
@@ -480,8 +471,10 @@ button:focus {
   background-color: #FFFFFF;
 }
 
-.portfolio-list_item:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 480px) {
+  .portfolio-list_item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .portfolio-list_link {
@@ -531,29 +524,29 @@ button:focus {
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
-  }
-  .portfolio-list_item {
-    flex-basis: calc(100% / 2 - 30px);
-    margin-bottom: 30px;
-    margin-right: 30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .filters-list {
     justify-content: center;
   }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+  .portfolio-list_item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .portfolio-list_item {
     flex-basis: calc(100% / 3 - 30px);
   }
-  .portfolio-list_item:nth-child(3n) {
-    margin-right: 0px;
-  }
+}
+
+@media screen and (min-width: 768px) {
   .portfolio-list-link {
     display: inline-block;
     width: 100%;
@@ -618,10 +611,6 @@ button:focus {
   color: #FFFFFF;
   text-align: center;
   margin-top: 20px;
-}
-
-.left-side {
-  margin-bottom: 60px;
 }
 
 .contacts-item > a {
@@ -711,6 +700,12 @@ button:focus {
   margin-left: 10px;
 }
 
+@media screen and (max-width: 480px) {
+  .left-side {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer_tablet {
     display: flex;
@@ -727,7 +722,6 @@ button:focus {
 @media screen and (min-width: 1200px) {
   .left-side {
     margin-right: 70px;
-    margin-bottom: 0px;
   }
   .title-social {
     margin-top: 12px;

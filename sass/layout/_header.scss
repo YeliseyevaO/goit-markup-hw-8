@@ -161,9 +161,6 @@ color: var(--accent-color);
 .contacts-list_item:not(:last-child){
     margin-bottom: 10px;
 }
-.contacts-list{
-    margin-left: auto;
-}
 .contacts-list_link{
     display: flex;
     align-items: center;
